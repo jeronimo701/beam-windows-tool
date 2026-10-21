@@ -1,0 +1,3 @@
+Put .apk files in this folder.
+The tool installs all APK files found here with:
+adb install -r -d "<file.apk>"

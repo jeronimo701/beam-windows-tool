@@ -1,0 +1,45 @@
+# Fresh XREAL Beam system settings snapshot converted to adb commands.
+# Source format was: adb shell settings list system
+# Run through menu item: 4. Apply commands from txt
+#
+# Notes:
+# - This is a baseline/restore-style profile, not an optimization preset.
+# - Lines starting with # are ignored by the tool.
+
+settings put system accelerometer_rotation 0
+settings put system alarm_alert content://media/internal/audio/media/133?title=Oxygen\&canonical=1
+settings put system alarm_alert_set 1
+settings put system dim_screen 1
+settings put system dtmf_tone 1
+settings put system dtmf_tone_type 0
+settings put system end_button_behavior 2
+settings put system font_scale 1.0
+settings put system haptic_feedback_enabled 1
+settings put system hearing_aid 0
+settings put system lockscreen_sounds_enabled 1
+settings put system mode_ringer_streams_affected 128
+settings put system mute_streams_affected 111
+settings put system notification_light_pulse 1
+settings put system notification_sound content://media/internal/audio/media/170?title=Pixie%20Dust\&canonical=1
+settings put system notification_sound_set 1
+settings put system pointer_speed 0
+settings put system ringtone content://media/internal/audio/media/78?title=Flutey%20Phone\&canonical=1
+settings put system ringtone_set 1
+settings put system screen_brightness 120
+settings put system screen_brightness_float 0.46850395
+settings put system screen_brightness_for_vr 86
+settings put system screen_brightness_mode 0
+settings put system screen_off_timeout 300000
+settings put system screenshot_button_show 0
+settings put system sound_effects_enabled 1
+settings put system system_locales ru-RU,en
+settings put system tty_mode 0
+settings put system vibrate_when_ringing 0
+settings put system volume_alarm 6
+settings put system volume_bluetooth_sco 7
+settings put system volume_music 5
+settings put system volume_music_speaker 2
+settings put system volume_notification 5
+settings put system volume_ring 5
+settings put system volume_system 7
+settings put system volume_voice 4

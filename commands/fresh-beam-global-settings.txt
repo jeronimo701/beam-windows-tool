@@ -1,0 +1,87 @@
+# Fresh XREAL Beam global settings snapshot converted to adb commands.
+# Source format was: adb shell settings list global
+# Run through menu item: 4. Apply commands from txt
+#
+# Notes:
+# - This is a baseline/restore-style profile, not an optimization preset.
+# - Dynamic/device-generated values are intentionally skipped:
+#   average_time_to_discharge, battery_estimates_last_update_time, boot_count,
+#   database_creation_buildid, network_watchlist_last_report_time,
+#   time_remaining_estimate_millis, zen_mode_config_etag.
+# - Lines starting with # are ignored by the tool.
+
+settings put global adb_enabled 1
+settings put global adb_wifi_enabled 0
+settings put global add_users_when_locked 0
+settings put global airplane_mode_on 0
+settings put global airplane_mode_radios cell,bluetooth,wifi,nfc,wimax
+settings put global airplane_mode_toggleable_radios bluetooth,wifi,nfc
+settings put global apply_ramping_ringer 0
+settings put global assisted_gps_enabled 1
+settings put global audio_safe_volume_state 1
+settings put global auto_time 1
+settings put global auto_time_zone 1
+settings put global bluetooth_disabled_profiles 0
+settings put global bluetooth_on 1
+settings put global bluetooth_sanitized_exposure_notification_supported 1
+settings put global call_auto_retry 0
+settings put global car_dock_sound /product/media/audio/ui/Dock.ogg
+settings put global car_undock_sound /product/media/audio/ui/Undock.ogg
+settings put global cdma_cell_broadcast_sms 1
+settings put global charging_started_sound /product/media/audio/ui/ChargingStarted.ogg
+settings put global data_roaming 0
+settings put global debug_app null
+settings put global default_install_location 0
+settings put global default_restrict_background_data 0
+settings put global desk_dock_sound /product/media/audio/ui/Dock.ogg
+settings put global desk_undock_sound /product/media/audio/ui/Undock.ogg
+settings put global development_settings_enabled 1
+settings put global device_name Beam
+settings put global device_provisioned 1
+settings put global dock_audio_media_enabled 1
+settings put global dock_sounds_enabled 0
+settings put global dock_sounds_enabled_when_accessbility 0
+settings put global emergency_tone 0
+settings put global hdmi_control_auto_device_off_enabled 0
+settings put global heads_up_notifications_enabled 1
+settings put global isolated_storage_remote null
+settings put global lid_behavior 1
+settings put global location_global_kill_switch 0
+settings put global lock_sound /product/media/audio/ui/Lock.ogg
+settings put global low_battery_sound /product/media/audio/ui/LowBattery.ogg
+settings put global low_battery_sound_timeout 0
+settings put global low_power 0
+settings put global max_sound_trigger_detection_service_ops_per_day 1000
+settings put global mobile_data 1
+settings put global mobile_data_always_on 1
+settings put global mode_ringer 2
+settings put global netstats_enabled 1
+settings put global network_recommendations_enabled 0
+settings put global notification_bubbles 1
+settings put global power_sounds_enabled 1
+settings put global preferred_network_mode 0
+settings put global set_install_location 0
+settings put global sound_trigger_detection_service_op_timeout 15000
+settings put global stay_on_while_plugged_in 1
+settings put global subscription_mode 0
+settings put global sysui_demo_allowed null
+settings put global theater_mode_on 0
+settings put global time_remaining_estimate_based_on_usage 0
+settings put global transition_animation_scale 0.5
+settings put global trusted_sound /product/media/audio/ui/Trusted.ogg
+settings put global unlock_sound /product/media/audio/ui/Unlock.ogg
+settings put global usb_mass_storage_enabled 1
+settings put global wait_for_debugger 0
+settings put global webview_fallback_logic_enabled 0
+settings put global wifi_display_on 0
+settings put global wifi_max_dhcp_retry_count 9
+settings put global wifi_migration_completed 1
+settings put global wifi_networks_available_notification_on 1
+settings put global wifi_on 1
+settings put global wifi_scan_always_enabled 0
+settings put global wifi_sleep_policy 0
+settings put global wifi_wakeup_enabled 1
+settings put global window_animation_scale 0.5
+settings put global wireless_charging_started_sound /product/media/audio/ui/WirelessChargingStarted.ogg
+settings put global zen_duration null
+settings put global zen_mode 0
